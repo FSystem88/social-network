@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font: normal normal normal 16px "Trebuchet MS", Arial, Times;
+	color: #000000;
+}
+
+/* Важное свойство */
+.chat {
+	height: 500px;
+	overflow: auto; /* Это позволяет отображать полусу прокрутки */
+	position: relative; /* Это позволяет съезжать тексту в слое, не растягия страницу */
+	text-align: left;
+	border: solid #818181 1px;
+}
+
+.chat div {
+	position: absolute; /* Страница остаётся тогоже размера */
+}
+
+.chat span {
+	display: block;
+}
+
+input[type=text],textarea {
+	width: 100%;
+	font: normal normal normal 16px "Trebuchet MS", Arial, Times;
+	border: solid #818181 1px;
+}
+
+/* Для CSS 3 */
+.r4 {
+	-moz-border-radius: 4px;
+	-khtml-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}

@@ -1,0 +1,6 @@
+body { font-family: Helvetica, Arial, sans-serif; font-size: 14px; background: #f1f1f1 }
+hr { color: #3333cc; width=300; text-align=left }
+a { color: #000000 }
+input, textarea {   max-width:100% }
+#footer { padding: 10px; color: darkgrey; width: 100%;  font-size: 13px; }
+z { font-size: 15; color: #14c83c; font-weight: bolder }
